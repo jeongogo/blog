@@ -20,7 +20,7 @@ const Header = () => {
     <Container>
       <div className="content-wrap">
         <div className="blog">
-          <Link to='/post'>블로그</Link>
+          <Link to='/'>블로그</Link>
         </div>
         <div className="logo">
           <Link to='/'>HONGC</Link>
