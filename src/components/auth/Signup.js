@@ -11,7 +11,7 @@ const Signup = ({ handleRegister }) => {
     const data = {
       email: emailRef.current.value,
       name: nameRef.current.value,
-      password: nameRef.current.value,
+      password: passwordRef.current.value,
     }
     handleRegister(data);
   }

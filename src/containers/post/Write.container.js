@@ -9,7 +9,7 @@ const WriteContainer = () => {
     await axios.post('http://192.168.2.8:4000/api/post', data)
     .then((res) => {
       if (res.data.status === 'success') {
-        navigate('/post');
+        navigate('/');
       } else if (res.data.status === 'failed') {
         alert(res.data.error);
       }
